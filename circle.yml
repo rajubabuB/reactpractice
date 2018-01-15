@@ -10,7 +10,3 @@ deployment:
     heroku:
       appname: react practice
 
-test:
-  override:
-  post:
-    - yarn lint
