@@ -8,5 +8,5 @@ deployment:
   staging:
     branch: master
     heroku:
-      appname: react practice
+      appname: react-practice
 
