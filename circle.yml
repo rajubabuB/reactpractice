@@ -1,0 +1,16 @@
+machine:
+  node:
+    version: 7.10.1
+  npm:
+    version: 4.2.0
+
+deployment:
+  staging:
+    branch: master
+    heroku:
+      appname: react practice
+
+test:
+  override:
+  post:
+    - yarn lint
