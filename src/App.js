@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import { Button, SVGIcon } from 'react-md';
 
 class App extends Component {
   render() {
@@ -10,10 +11,14 @@ class App extends Component {
           <img src={logo} className="App-logo" alt="logo" />
           <h1 className="App-title">Welcome to React Application</h1>
         </header>
-        <p className="App-intro">
+        {/*<p className="App-intro">
           To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
-      </div>
+        </p> */}
+       <div className="buttons__group">            
+            <Button>Employees</Button>
+            <Button>Departments</Button>
+      </div>    
+      </div>   
     );
   }
 }
